@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — 2 pill lệch pha, xếp khít</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<style>
+  :root { --bg:#f2f3f5; --ink:#232a31; --accent:#e98a3e; --muted:#9aa3ad; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { height:100%; }
+  body {
+    background-color:var(--bg); color:var(--ink);
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    min-height:100%;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:44px; padding:48px 24px;
+  }
+
+  /* xếp khít, không neo mép, không width cố định */
+  .wordmark {
+    display:inline-flex; align-items:center;
+    font-weight:800; font-size:clamp(40px, 10vw, 104px);
+    letter-spacing:-0.03em; line-height:1; user-select:none; white-space:nowrap;
+  }
+  .ltr { display:inline-block; }
+
+  .pill {
+    display:inline-block;
+    height:0.60em; width:0.60em;           /* tròn = chữ o */
+    border:0.118em solid var(--ink);
+    border-radius:999px;                    /* 2 đầu luôn tròn */
+    margin:0 0.06em; flex:0 0 auto;
+  }
+
+  .caption { max-width:580px; text-align:center; color:var(--muted); font-size:15px; line-height:1.6; }
+  .caption b { color:var(--ink); font-weight:700; }
+  .controls { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
+  button {
+    font:inherit; font-weight:600; font-size:14px; color:var(--ink);
+    background:#fff; border:1px solid #dde1e6; border-radius:999px;
+    padding:11px 22px; cursor:pointer; box-shadow:0 2px 0 rgba(35,42,49,.06);
+    transition:transform .15s ease, box-shadow .15s ease;
+  }
+  button:hover { transform:translateY(-1px); box-shadow:0 4px 0 rgba(35,42,49,.09); }
+  button:active { transform:translateY(1px); box-shadow:none; }
+  button:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+  @media (prefers-reduced-motion: reduce) { * { animation:none !important; } }
+</style>
+</head>
+<body>
+
+  <div class="wordmark" aria-label="Portfolio">
+    <span class="ltr">P</span><!--
+ --><span class="pill" id="o1"></span><!--
+ --><span class="ltr">r</span><span class="ltr">t</span><span class="ltr">f</span><!--
+ --><span class="pill" id="o2"></span><!--
+ --><span class="ltr">l</span><span class="ltr">i</span><span class="ltr">o</span>
+  </div>
+
+  <p class="caption">
+    Xếp khít: <b>P</b> sát o1, <b>"lio"</b> sát o2. Hai pill lệch pha (cái ra cái vào),
+    tổng độ dài bằng nhau nên <b>"lio"</b> đứng yên, còn <b>"rtf"</b> dao động theo nhịp pill.
+  </p>
+
+  <div class="controls">
+    <button id="replay">▶ Chạy lại intro</button>
+    <button id="toggle">⏸ Tạm dừng</button>
+  </div>
+
+<script>
+  const o1 = document.getElementById("o1");
+  const o2 = document.getElementById("o2");
+  const allLtr = document.querySelectorAll(".wordmark .ltr");
+  const SHORT = "0.60em";
+  const LONG  = "2.40em";
+  const DUR   = 1.8;        // mỗi nhịp
+  const EASE  = "none";     // tuyến tính: chạy đều, không giảm tốc, không dừng ở điểm cuối
+  let loop;
+
+  function startSeesaw() {
+    // ease "none" -> tốc độ không đổi, tới điểm cuối đảo chiều ngay, liên tục
+    loop = gsap.timeline({ repeat:-1 });
+    loop.to(o1, { width:LONG,  duration:DUR, ease:EASE }, 0)
+        .to(o2, { width:SHORT, duration:DUR, ease:EASE }, 0)
+        .to(o1, { width:SHORT, duration:DUR, ease:EASE }, DUR)   // đảo chiều liền, không nghỉ
+        .to(o2, { width:LONG,  duration:DUR, ease:EASE }, DUR);
+  }
+
+  function playIntro() {
+    if (loop) loop.kill();
+    gsap.set(o1, { width:SHORT });   // o đầu tròn
+    gsap.set(o2, { width:LONG  });   // o thứ 2 dài -> lệch pha sẵn
+
+    gsap.timeline()
+      .from([...allLtr], { y:44, autoAlpha:0, duration:0.5, ease:"power3.out", stagger:0.05 })
+      .from([o1, o2], { scale:0, autoAlpha:0, transformOrigin:"center", duration:0.45, ease:"back.out(2)", stagger:0.1 }, "-=0.3")
+      .add(startSeesaw);
+  }
+
+  playIntro();
+
+  document.getElementById("replay").addEventListener("click", playIntro);
+  const toggleBtn = document.getElementById("toggle");
+  toggleBtn.addEventListener("click", () => {
+    if (!loop) return;
+    if (loop.paused()) { loop.play();  toggleBtn.textContent = "⏸ Tạm dừng"; }
+    else               { loop.pause(); toggleBtn.textContent = "▶ Tiếp tục"; }
+  });
+</script>
+</body>
+</html>

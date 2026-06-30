@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Insight - 5 Seconds Decide Everything</title>
+    
+    <!-- Load Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Load FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark-green': '#1f4e35',
+                        'brand-light-green': '#2e6b47',
+                        'text-main': '#111827',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f3f4f6; /* Nền xám nhạt */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 1rem;
+        }
+        
+        .slide-container {
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.1);
+        }
+
+        /* Brush/Torn edge effect for the bottom banner */
+        .brush-banner {
+            position: relative;
+            background-color: #1f4e35;
+            /* Tạo một chút méo nhẹ kết hợp bo góc để có cảm giác tự nhiên */
+            border-radius: 4px 8px 3px 6px;
+            transform: rotate(-0.5deg);
+        }
+        
+        /* Inner text wrapper to counter the rotation */
+        .brush-banner-content {
+            transform: rotate(0.5deg);
+        }
+    </style>
+</head>
+<body>
+
+    <main class="slide-container w-full max-w-[1000px] bg-white p-8 md:p-12 lg:px-16 lg:py-12 rounded-sm flex flex-col relative overflow-hidden">
+        
+        <!-- HEADER -->
+        <header class="flex items-start mb-6 md:mb-8">
+            <span class="text-brand-dark-green font-bold text-5xl md:text-[4.5rem] leading-none mr-4 tracking-tighter">05</span>
+            <div class="flex flex-col pt-1">
+                <span class="text-brand-dark-green font-bold text-sm md:text-sm tracking-[0.15em] leading-tight uppercase">Key</span>
+                <span class="text-brand-dark-green font-bold text-sm md:text-sm tracking-[0.15em] leading-tight uppercase mt-0.5">Insight</span>
+            </div>
+        </header>
+
+        <!-- MAIN LAYOUT (2 Columns) -->
+        <div class="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16 relative">
+            
+            <!-- LEFT COLUMN: Phone Mockup -->
+            <div class="relative w-[280px] md:w-[300px] h-[580px] md:h-[620px] bg-[#1a1a1a] rounded-[3rem] p-[10px] md:p-[12px] shadow-2xl flex-shrink-0 z-10 mx-auto lg:mx-0">
+                
+                <!-- Inner Screen -->
+                <div class="w-full h-full bg-gray-200 rounded-[2.25rem] overflow-hidden relative">
+                    
+                    <!-- Phone Notch (Tai thỏ) -->
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-36 h-6 bg-[#1a1a1a] rounded-b-[1rem] z-20"></div>
+
+                    <!-- Placeholder Image (Food Video) -->
+                    <img src="https://placehold.co/720x1280/8b5cf6/ffffff?text=Food\nVideo\nPlaceholder" alt="Food Video Mockup" class="w-full h-full object-cover" />
+                    
+                    <!-- Gradient Overlay for text readability -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/20 pointer-events-none"></div>
+
+                    <!-- Mock TikTok UI Overlays -->
+                    <!-- Bottom Info -->
+                    <div class="absolute bottom-6 left-4 text-white w-3/4">
+                        <p class="font-bold text-sm mb-1">@bepxuyenviet</p>
+                        <p class="text-xs opacity-90 line-clamp-2">Thịt kho sệt sệt, đưa cơm siêu tốc #bepxuyenviet #sotkhotieu</p>
+                    </div>
+                    
+                    <!-- Right Actions -->
+                    <div class="absolute bottom-6 right-3 flex flex-col items-center gap-5 text-white drop-shadow-md">
+                        <!-- Profile pic mock -->
+                        <div class="w-10 h-10 bg-white rounded-full p-0.5 mb-2">
+                            <img src="https://placehold.co/100x100/1f4e35/ffffff?text=BX" class="w-full h-full rounded-full object-cover">
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <i class="fa-solid fa-heart text-2xl"></i>
+                            <span class="text-[0.65rem] font-medium">213.6K</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <i class="fa-solid fa-comment-dots text-2xl"></i>
+                            <span class="text-[0.65rem] font-medium">450</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1">
+                            <i class="fa-solid fa-bookmark text-2xl"></i>
+                            <span class="text-[0.65rem] font-medium">1,320</span>
+                        </div>
+                        <div class="flex flex-col items-center gap-1 mt-1">
+                            <i class="fa-solid fa-share text-2xl"></i>
+                            <span class="text-[0.65rem] font-medium">Share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN: Content -->
+            <div class="flex-1 flex flex-col pt-2 w-full">
+                
+                <!-- Title Row (Includes 5s Timer SVG) -->
+                <div class="flex items-start justify-between mb-4 relative">
+                    <!-- Main Title -->
+                    <h1 class="text-brand-dark-green font-black text-[2rem] md:text-[2.5rem] leading-[1.1] uppercase tracking-tight max-w-[400px]">
+                        5 SECONDS<br/>DECIDE EVERYTHING
+                    </h1>
+                    
+                    <!-- 5s Timer SVG Graphic -->
+                    <div class="absolute right-0 top-[-40px] md:top-[-60px] hidden sm:block">
+                        <svg width="120" height="120" viewBox="0 0 120 120" class="text-brand-dark-green">
+                            <!-- Dashed Circle -->
+                            <path d="M 100 60 A 40 40 0 1 1 76 25" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+                            <!-- 5s Text -->
+                            <text x="56" y="74" font-family="Inter, sans-serif" font-weight="900" font-size="38" fill="currentColor" text-anchor="middle">5s</text>
+                            <!-- Radiating Motion Lines -->
+                            <line x1="88" y1="28" x2="102" y2="16" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+                            <line x1="102" y1="44" x2="116" y2="38" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+                            <line x1="106" y1="62" x2="118" y2="62" stroke="currentColor" stroke-width="4.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Subtitle -->
+                <p class="text-text-main text-lg md:text-xl mb-10 max-w-[420px] leading-snug">
+                    Người xem cần thấy <strong class="font-bold">thèm ăn trước khi</strong> họ quan tâm đến sản phẩm.
+                </p>
+
+                <!-- Bullet Points -->
+                <div class="flex flex-col gap-8 md:gap-10">
+                    
+                    <!-- Point 1 -->
+                    <div class="flex items-start gap-5">
+                        <div class="w-14 h-14 md:w-16 md:h-16 rounded-full border-[2.5px] border-brand-dark-green flex items-center justify-center flex-shrink-0 text-brand-dark-green text-2xl md:text-3xl">
+                            <i class="fa-solid fa-bowl-food"></i>
+                        </div>
+                        <div class="flex flex-col pt-1">
+                            <h3 class="text-brand-dark-green font-bold text-lg md:text-xl uppercase tracking-wider mb-1">FOOD-FIRST VISUAL</h3>
+                            <p class="text-text-main text-base md:text-lg">Món ăn phải xuất hiện hấp dẫn ngay từ đầu.</p>
+                        </div>
+                    </div>
+
+                    <!-- Point 2 -->
+                    <div class="flex items-start gap-5">
+                        <div class="w-14 h-14 md:w-16 md:h-16 rounded-full border-[2.5px] border-brand-dark-green flex items-center justify-center flex-shrink-0 text-brand-dark-green text-2xl md:text-3xl">
+                            <!-- Rotating the arrow to match the design's diagonal double arrow -->
+                            <i class="fa-solid fa-arrow-right-arrow-left transform -rotate-45"></i>
+                        </div>
+                        <div class="flex flex-col pt-1">
+                            <h3 class="text-brand-dark-green font-bold text-lg md:text-xl uppercase tracking-wider mb-1">CLEAR HOOK</h3>
+                            <p class="text-text-main text-base md:text-lg">Người xem cần hiểu video đang hứa hẹn điều gì.</p>
+                        </div>
+                    </div>
+
+                    <!-- Point 3 -->
+                    <div class="flex items-start gap-5">
+                        <div class="w-14 h-14 md:w-16 md:h-16 rounded-full border-[2.5px] border-brand-dark-green flex items-center justify-center flex-shrink-0 text-brand-dark-green text-2xl md:text-3xl">
+                            <i class="fa-solid fa-pen"></i>
+                        </div>
+                        <div class="flex flex-col pt-1">
+                            <h3 class="text-brand-dark-green font-bold text-lg md:text-xl uppercase tracking-wider mb-1">ATTENTION MOMENT</h3>
+                            <p class="text-text-main text-base md:text-lg">Một khoảnh khắc "ngon mắt" giúp họ dừng lướt.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- BOTTOM BANNER (Torn Brush Effect) -->
+        <!-- Sử dụng SVG inline như một background để tạo ra viền rách tự nhiên tuyệt đối -->
+        <div class="mt-12 md:mt-16 w-full relative min-h-[90px] md:min-h-[100px] flex items-center justify-center z-10 px-6 py-8">
+            <!-- SVG Background -->
+            <svg class="absolute inset-0 w-full h-full text-brand-dark-green drop-shadow-md" preserveAspectRatio="none" viewBox="0 0 1000 100" fill="currentColor">
+                <path d="M 8 12 Q 150 4 300 8 T 700 5 T 985 10 Q 995 50 990 88 L 980 92 Q 800 96 500 90 T 200 95 Q 50 98 10 90 Z" />
+            </svg>
+            
+            <!-- Text Content -->
+            <p class="relative z-10 text-white font-medium text-center text-base md:text-xl max-w-3xl leading-relaxed">
+                If the first 5 seconds do not look delicious enough,<br class="hidden md:block">
+                viewers scroll away before the brand can explain itself.
+            </p>
+        </div>
+
+    </main>
+
+</body>
+</html>
