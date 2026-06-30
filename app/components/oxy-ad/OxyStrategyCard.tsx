@@ -114,6 +114,16 @@ export default function OxyStrategyCard({
           <OxyVisualDoodles />
         </div>
 
+        <div className="oxy-srm-hero" aria-hidden>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            className="oxy-srm"
+            src="/oxy-ad/1/srm.png"
+            alt=""
+            draggable={false}
+          />
+        </div>
+
         <div className="oxy-figure" role="img" aria-label="Key visual người mẫu OXY">
           <div className="oxy-scratch-wrap">
             {/* eslint-disable-next-line @next/next/no-img-element */}

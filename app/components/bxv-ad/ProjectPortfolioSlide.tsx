@@ -70,7 +70,7 @@ export default function ProjectPortfolioSlide({
                 </span>
                 <p>
                   Nếu người trẻ vẫn nấu ăn, vẫn xem review gia vị nấu ăn, vẫn mua hàng trên TikTok
-                  Shop, vậy nội dung của Bếp Xuyên Việt đang thiếu điều gì để khiến họ bấm mua?
+                  Shop, vậy nội dung số của Bếp Xuyên Việt đang thiếu điều gì để khiến họ bấm mua?
                 </p>
               </div>
             </blockquote>

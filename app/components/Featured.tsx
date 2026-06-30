@@ -308,6 +308,11 @@ export default function Featured() {
             "-=0.35"
           )
           .from(
+            oq(".oxy-srm-hero"),
+            { scale: 0.92, autoAlpha: 0, duration: DUR.fast },
+            "-=0.35"
+          )
+          .from(
             oq(".oxy-figure"),
             { autoAlpha: 0, duration: DUR.fast },
             "-=0.35"

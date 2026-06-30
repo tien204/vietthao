@@ -493,8 +493,27 @@ img { display: block; max-width: 100%; }
 }
 
 .oxy-visual {
-  position: relative; min-height: 280px;
-  display: flex; justify-content: flex-end; align-items: flex-end;
+  position: relative;
+  min-height: 280px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.oxy-srm-hero {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  z-index: 7;
+  width: min(300px, 42vw);
+  line-height: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
+.oxy-srm {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 .oxy-doodle {
   position: absolute; color: var(--accent-secondary); pointer-events: none;
@@ -568,12 +587,14 @@ img { display: block; max-width: 100%; }
   .oxy-main { flex-direction: row; align-items: flex-start; gap: 24px; padding-top: 0; }
   .oxy-copy { width: 52%; padding-top: 24px; }
   .oxy-visual { width: 48%; margin-top: 0; flex-shrink: 0; }
+  .oxy-srm-hero { width: min(320px, 34vw); top: 44%; }
 }
 
 @media (max-width: 767px) {
   .oxy-card { padding-bottom: 86px; }
   .oxy-brand { top: 72px; right: 24px; }
   .oxy-visual { margin-top: 24px; min-height: 360px; }
+  .oxy-srm-hero { width: min(240px, 62vw); top: 42%; }
   .oxy-blue-banner {
     font-size: clamp(11px, 3.1cqw, 16px);
     white-space: normal;
