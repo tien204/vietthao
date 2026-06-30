@@ -20,8 +20,8 @@ const CONTACT_ITEMS = [
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/dinhthuyhuong11",
-    href: "https://www.linkedin.com/in/dinhthuyhuong11/",
+    value: "linkedin.com/in/tranthao1602",
+    href: "https://www.linkedin.com/in/tranthao1602/",
     icon: Linkedin,
   },
 ] as const;
@@ -46,7 +46,7 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
             <div className="work-contact-panel-avatar">
               <Image
                 src="/avatar.png"
-                alt="Ảnh chân dung Đinh Thị Thủy Hương"
+                alt="Ảnh chân dung Trần Việt Phương Thảo"
                 fill
                 className="work-contact-panel-avatar-img"
                 sizes="56px"
@@ -57,7 +57,7 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
                 Liên hệ trực tiếp
               </p>
               <h3 className="work-contact-panel-title">
-                Đinh Thị Thủy Hương
+                Trần Việt Phương Thảo
               </h3>
             </div>
           </div>

@@ -27,7 +27,7 @@ const INITIAL_MESSAGES: ChatMessage[] = [
     id: "intro",
     role: "assistant",
     content:
-      "Chào anh/chị! Mình là trợ lý của Hương. Anh/chị cho mình biết họ tên của anh/chị được không?",
+      "Chào anh/chị! Mình là trợ lý của Thảo. Anh/chị cho mình biết họ tên của anh/chị được không?",
   },
 ];
 
@@ -181,7 +181,7 @@ export function WorkContactSection() {
       setEmailSendState("sent");
       advanceConversation(
         "done",
-        `Cảm ơn ${finalForm.recruiterName}! Mình đã gửi thông tin cho Hương. Hương sẽ liên hệ lại sớm qua ${finalForm.phone} hoặc ${finalForm.email}.`,
+        `Cảm ơn ${finalForm.recruiterName}! Mình đã gửi thông tin cho Thảo. Thảo sẽ liên hệ lại sớm qua ${finalForm.phone} hoặc ${finalForm.email}.`,
         600,
       );
     } catch (sendError) {
@@ -233,7 +233,7 @@ export function WorkContactSection() {
       }));
       advanceConversation(
         "phone",
-        "Số điện thoại để Hương liên hệ lại là gì ạ?",
+        "Số điện thoại để Thảo liên hệ lại là gì ạ?",
       );
       return;
     }
@@ -300,7 +300,7 @@ export function WorkContactSection() {
                 <div className="work-contact-chat-avatar">
                 <Image
                   src="/avatar.png"
-                  alt="Avatar Đinh Thị Thủy Hương"
+                  alt="Avatar Trần Việt Phương Thảo"
                   fill
                   className="work-contact-chat-avatar-img"
                   sizes="56px"
@@ -315,7 +315,7 @@ export function WorkContactSection() {
                     {greeting}, anh/chị
                   </h2>
                   <p className="work-contact-chat-meta">
-                  Liên hệ công việc với Hương — chỉ mất vài phút
+                  Liên hệ công việc với Thảo — chỉ mất vài phút
                   </p>
                 </div>
               </div>
@@ -380,7 +380,7 @@ export function WorkContactSection() {
                     {emailSendState === "sending"
                       ? "Đang gửi thông tin liên hệ..."
                       : emailSendState === "sent"
-                        ? "Đã gửi thông tin thành công. Hương sẽ phản hồi trong 24–48 giờ làm việc."
+                        ? "Đã gửi thông tin thành công. Thảo sẽ phản hồi trong 24–48 giờ làm việc."
                         : emailSendState === "error"
                           ? "Thông tin đã được ghi nhận. Anh/chị có thể liên hệ trực tiếp qua email bên dưới."
                           : "Đã ghi nhận thông tin liên hệ."}
