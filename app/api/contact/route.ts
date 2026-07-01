@@ -23,31 +23,31 @@ export async function POST(request: Request) {
   try {
     body = (await request.json()) as ContactPayload;
   } catch {
-    return NextResponse.json({ error: "Dữ liệu không hợp lệ." }, { status: 400 });
+    return NextResponse.json({ error: "Invalid request data." }, { status: 400 });
   }
 
   const { recruiterName, jobDescription, phone, email } = body;
 
   if (!recruiterName?.trim() || recruiterName.trim().length < 2) {
-    return NextResponse.json({ error: "Họ tên không hợp lệ." }, { status: 400 });
+    return NextResponse.json({ error: "Invalid name." }, { status: 400 });
   }
 
   if (!jobDescription?.trim() || jobDescription.trim().length < 5) {
     return NextResponse.json(
-      { error: "Mô tả vị trí không hợp lệ." },
+      { error: "Invalid role description." },
       { status: 400 },
     );
   }
 
   if (!phone?.trim() || !isValidPhone(phone)) {
     return NextResponse.json(
-      { error: "Số điện thoại không hợp lệ." },
+      { error: "Invalid phone number." },
       { status: 400 },
     );
   }
 
   if (!email?.trim() || !isValidEmail(email)) {
-    return NextResponse.json({ error: "Email không hợp lệ." }, { status: 400 });
+    return NextResponse.json({ error: "Invalid email." }, { status: 400 });
   }
 
   const gmailUser = process.env.GMAIL_APP_USER;
@@ -56,7 +56,7 @@ export async function POST(request: Request) {
 
   if (!gmailUser || !gmailPassword) {
     return NextResponse.json(
-      { error: "Hệ thống email chưa được cấu hình." },
+      { error: "Email system is not configured." },
       { status: 500 },
     );
   }
@@ -69,11 +69,11 @@ export async function POST(request: Request) {
     },
   });
 
-  const subject = `Liên hệ công việc từ ${recruiterName.trim()}`;
+  const subject = `Work inquiry from ${recruiterName.trim()}`;
   const text = [
-    `Họ tên nhà tuyển dụng: ${recruiterName.trim()}`,
-    `Mô tả / JD: ${jobDescription.trim()}`,
-    `Số điện thoại: ${phone.trim()}`,
+    `Recruiter name: ${recruiterName.trim()}`,
+    `Role description / JD: ${jobDescription.trim()}`,
+    `Phone: ${phone.trim()}`,
     `Email: ${email.trim()}`,
   ].join("\n");
 
@@ -89,7 +89,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ success: true });
   } catch {
     return NextResponse.json(
-      { error: "Không thể gửi email. Vui lòng thử lại sau." },
+      { error: "Unable to send email. Please try again later." },
       { status: 500 },
     );
   }

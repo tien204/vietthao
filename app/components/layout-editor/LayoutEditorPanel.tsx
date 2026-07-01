@@ -22,15 +22,15 @@ export function LayoutEditorPanel<T extends string>({
   activeTransform,
   onReset,
   onCopyCss,
-  hint = "Kéo lớp để di chuyển · Kéo mũi tên ở góc để phóng to / thu nhỏ",
-  ariaLabel = "Bảng chỉnh vị trí",
+  hint = "Drag layer to move · Drag corner arrow to scale",
+  ariaLabel = "Layout editor panel",
 }: LayoutEditorPanelProps<T>) {
   const { x, y, scale, rotate } = activeTransform;
 
   return (
     <aside className="layout-editor-panel" aria-label={ariaLabel}>
       <p className="layout-editor-hint">{hint}</p>
-      <div className="layout-editor-tabs" role="tablist" aria-label="Lớp chỉnh vị trí">
+      <div className="layout-editor-tabs" role="tablist" aria-label="Layout layers">
         {layerOrder.map((id) => (
           <button
             key={id}

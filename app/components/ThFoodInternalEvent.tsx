@@ -3,19 +3,19 @@
 const topImages = [
   {
     src: "/th_food/internal/3.png",
-    alt: "Poster mời Trung Thu Hạnh Phúc — TH",
+    alt: "Happy Mid-Autumn invitation poster — TH",
     tilt: "left",
   },
   {
     src: "/th_food/internal/1.png",
-    alt: "Ảnh hoạt động và kịch bản game tại sự kiện nội bộ TH",
+    alt: "Activity photos and game scripts at TH internal event",
     tilt: "right",
   },
 ] as const;
 
 const baseImage = {
   src: "/th_food/internal/2.png",
-  alt: "Ảnh điều phối và ghi hình sự kiện nội bộ TH",
+  alt: "On-site coordination and event filming at TH internal event",
 } as const;
 
 const roleItems = [

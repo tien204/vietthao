@@ -62,34 +62,34 @@ type Project = {
 const experiences: Experience[] = [
   {
     no: "01",
-    company: "Mở Mắt Coffee",
-    role: "Đồng sáng lập & Trưởng nhóm Nội dung",
+    company: "Mo Mat Coffee",
+    role: "Co-founder & Content Team Lead",
     period: "11/2023 – 10/2024",
     summary: "",
     points: [],
     stats: [
-      { v: "+127%", l: "người theo dõi (2.200 → 5.000 / 6 tháng)" },
-      { v: "293K", l: "lượt xem reels hiệu quả nhất" },
-      { v: "141K", l: "views · ~4K likes từ chiến dịch KOC" },
+      { v: "+127%", l: "followers (2,200 → 5,000 / 6 months)" },
+      { v: "293K", l: "views on top-performing reels" },
+      { v: "141K", l: "views · ~4K likes from KOC campaign" },
     ],
   },
   {
     no: "02",
     company: "TH Food Chain JSC",
-    role: "Thực tập sinh Vận hành Marketing",
+    role: "Marketing Operations Intern",
     period: "2024",
     summary:
-      "Tăng tốc nội dung & PR bằng AI, song song tổ chức sự kiện nội bộ, xử lý tài trợ – hậu cần và brand activation tại hiện trường.",
+      "Accelerated content and PR with AI while organizing internal events, handling sponsorship logistics, and on-site brand activation.",
     points: [
-      "Chấp bút & biên tập thông cáo báo chí S-Race 2024 và bài “Cháo tương TH true FOOD”.",
-      "Chuẩn bị luồng sự kiện, kịch bản MC, ý tưởng hoạt động và điều phối hiện trường (Trung thu, 8/3…).",
-      "Dùng SAP phối hợp kho, theo dõi số lượng – thời gian giao – tài liệu nhà tài trợ.",
-      "Điều chỉnh backdrop, setup gian hàng, quản lý PG và chụp ảnh sự kiện.",
+      "Drafted and edited press releases for S-Race 2024 and the \u201cCh\u00e1o t\u01b0\u01a1ng TH true FOOD\u201d article.",
+      "Prepared event flows, MC scripts, activity ideas, and on-site coordination (Mid-Autumn Festival, International Women's Day, etc.).",
+      "Used SAP to coordinate with warehouse teams, track quantities, delivery timelines, and sponsor documentation.",
+      "Adjusted backdrops, set up booths, managed brand ambassadors, and photographed events.",
     ],
     stats: [
-      { v: "-75%", l: "thời gian viết PR (~1 ngày → ~2 giờ)" },
-      { v: "2", l: "sự kiện xử lý tài trợ sản phẩm" },
-      { v: "~10", l: "hội thảo được nghiên cứu" },
+      { v: "-75%", l: "PR writing time (~1 day → ~2 hours)" },
+      { v: "2", l: "product sponsorship events handled" },
+      { v: "~10", l: "conferences researched" },
     ],
   },
 ];
@@ -97,16 +97,16 @@ const experiences: Experience[] = [
 const projects: Project[] = [
   {
     no: "01",
-    title: "Gieo mầm tương lai",
-    subtitle: "ECO Vietnam Group — Điều phối viên Dự án · 2022",
+    title: "Planting Seeds for the Future",
+    subtitle: "ECO Vietnam Group — Project Coordinator · 2022",
     summary:
-      "Điều phối hoạt động nội dung, gây quỹ và quyên góp; làm việc trực tiếp với các bên liên quan và bám sát tiến độ tới khi về đích.",
+      "Coordinated content activities, fundraising, and donations; worked directly with stakeholders and tracked progress through to completion.",
     client: "ECO Vietnam Group",
-    role: "Điều phối viên Dự án",
+    role: "Project Coordinator",
     image: "/eco.png",
     stats: [
-      { v: "5 triệu", l: "VNĐ gây quỹ chỉ trong 2 tuần" },
-      { v: "40+", l: "cuốn sách giáo khoa quyên góp" },
+      { v: "5M", l: "VND raised in just 2 weeks" },
+      { v: "40+", l: "textbooks donated" },
     ],
   },
 ];
@@ -408,8 +408,8 @@ export default function Featured() {
       <div className="featured-block">
         <SectionHeader
           sectionNo="01"
-          line1="Kinh nghiệm"
-          line2="thực tế"
+          line1="Real-world"
+          line2="Experience"
         />
 
         <div className="xp-list">
@@ -461,7 +461,7 @@ export default function Featured() {
       </div>
 
       <div className="featured-block">
-        <SectionHeader sectionNo="02" line1="Đồ án" line2="nổi bật" />
+        <SectionHeader sectionNo="02" line1="Featured" line2="Projects" />
 
         <div className="project-list">
           <OxyStrategyCard
@@ -522,10 +522,10 @@ export default function Featured() {
                 </div>
                 <div className="meta">
                   <div>
-                    Khách hàng / Tổ chức: <b>{prj.client}</b>
+                    Client / Organization: <b>{prj.client}</b>
                   </div>
                   <div>
-                    Vai trò: <b>{prj.role}</b>
+                    Role: <b>{prj.role}</b>
                   </div>
                 </div>
               </div>

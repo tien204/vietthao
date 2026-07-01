@@ -69,8 +69,7 @@ export default function ProjectPortfolioSlide({
                   &ldquo;
                 </span>
                 <p>
-                  Nếu người trẻ vẫn nấu ăn, vẫn xem review gia vị nấu ăn, vẫn mua hàng trên TikTok
-                  Shop, vậy nội dung số của Bếp Xuyên Việt đang thiếu điều gì để khiến họ bấm mua?
+                  If young people still cook, still watch cooking seasoning reviews, and still shop on TikTok Shop, what is Bếp Xuyên Việt&apos;s digital content missing that would make them hit buy?
                 </p>
               </div>
             </blockquote>
@@ -80,7 +79,7 @@ export default function ProjectPortfolioSlide({
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/bxv-ad/1/sotphone.png"
-              alt="Bếp Xuyên Việt — sốt thịt kho, sốt kho tiêu và mockup TikTok trên điện thoại"
+              alt="Bếp Xuyên Việt — braised pork sauce, pepper braising sauce, and TikTok mockup on phone"
               draggable={false}
             />
           </div>
@@ -109,7 +108,7 @@ export default function ProjectPortfolioSlide({
           aria-expanded={expanded}
           aria-controls="bxv-ad-more"
         >
-          <span>{expanded ? "Thu gọn" : "Xem thêm"}</span>
+          <span>{expanded ? "Collapse" : "Show more"}</span>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>
             <path
               d={expanded ? "M6 15l6-6 6 6" : "M6 9l6 6 6-6"}
@@ -138,7 +137,7 @@ export default function ProjectPortfolioSlide({
           rel="noopener noreferrer"
         >
           <LinkIcon />
-          <span>Link bảng hỏi khảo sát</span>
+          <span>Survey questionnaire link</span>
         </a>
       </footer>
     </BxvSlideShell>

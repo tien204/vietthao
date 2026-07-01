@@ -2,12 +2,12 @@ const commentCards = [
   {
     avatar: "https://picsum.photos/seed/eureka-lee/80/80",
     name: "Lee X",
-    body: 'Mình vô BigC, hỏi sữa rửa mặt, có a nhân viên kia nói nhỏ "e có tiền thì dùng đồ ở ngoài á, a chỉ cho, đừng dùng mấy cái như Oxy, nó tệ lắm, khô hư da".',
+    body: 'I went to BigC to ask about face wash, and a staff member whispered, "If you have money, use products from outside — I\'ll show you. Don\'t use stuff like Oxy; it\'s terrible, it dries out your skin."',
   },
   {
     avatar: "https://picsum.photos/seed/eureka-lio/80/80",
     name: "Lio Trà",
-    body: "Oxy nó bào da ghê lắm, chưa kể nó làm khô da, theo cơ chế thì da nó tiết dầu để cân bằng ẩm... thế là dầu càng nhiều",
+    body: "Oxy really strips your skin, and it dries it out too. Mechanically, your skin produces oil to balance moisture... so you end up with even more oil.",
   },
 ] as const;
 
@@ -55,7 +55,7 @@ export default function EurekaMomentCard() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/oxy-ad/2/tik.png"
-              alt="Video TikTok — Ds. Kinh Quang Vinh test sữa rửa mặt OXY"
+              alt="TikTok video — Dr. Kinh Quang Vinh testing OXY face wash"
               draggable={false}
             />
           </figure>
@@ -79,15 +79,15 @@ export default function EurekaMomentCard() {
               <blockquote className="eureka-quote">
                 <p>
                   <span className="quote-line-highlight">
-                    Ủa zậy người ta có đang chê OXY
+                    Wait — are people actually criticizing
                   </span>
                   <br />
                   <span className="quote-line-highlight">
-                    bản mới hông?? Hay người ta thấy chê
+                    the new OXY?? Or have they heard so much
                   </span>
                   <br />
                   <span className="quote-line-highlight">
-                    bản cũ nhiều quá nên hông dám dùng bản mới?
+                    criticism of the old version that they won&apos;t try the new one?
                   </span>
                 </p>
               </blockquote>

@@ -1,102 +1,102 @@
-# THÔNG CÁO BÁO CHÍ  
-# GIẢI CHẠY DÀNH CHO HỌC SINH - SINH VIÊN  
-# S-RACE THÀNH PHỐ HỒ CHÍ MINH 2024  
-# VÌ TẦM VÓC VIỆT  
+# PRESS RELEASE  
+# SCHOOL & UNIVERSITY RUN  
+# S-RACE HO CHI MINH CITY 2024  
+# FOR VIETNAM'S STATURE  
 
-*Thành phố Hồ Chí Minh, ngày 05 tháng 10 năm 2024*
+*Ho Chi Minh City, October 5, 2024*
 
-## Hành trình gắn kết và phát triển toàn diện
+## A journey of connection and holistic development
 
-Sáng ngày 05/10/2024, tại Thành phố Hồ Chí Minh, S-Race – giải chạy học đường lớn nhất châu Á – đã diễn ra với sự tham gia hào hứng của hàng chục nghìn học sinh, sinh viên từ 21 quận, huyện trên địa bàn thành phố. Đây là lần thứ hai giải chạy được tổ chức tại TP.HCM, tiếp nối những thành công vang dội từ các mùa giải trước. Sự kiện không chỉ khẳng định vị thế là ngày hội thể thao hàng đầu, mà còn ghi dấu ấn như một biểu tượng của phong trào thể thao học đường tại Việt Nam.
+On the morning of October 5, 2024, in Ho Chi Minh City, S-Race — Asia's largest school running event — took place with enthusiastic participation from tens of thousands of students from 21 districts across the city. This was the second time the race was held in Ho Chi Minh City, following the resounding success of previous seasons. The event not only reaffirmed its status as a leading sports festival, but also stood as a symbol of the school sports movement in Vietnam.
 
-Với thông điệp **“Vì Tầm Vóc Việt”**, S-Race không dừng lại ở việc tổ chức một sự kiện thể thao mà còn đóng vai trò là cầu nối ý nghĩa, truyền tải thông điệp sâu sắc về tầm quan trọng của sức khỏe, sự gắn kết giữa gia đình, nhà trường và cộng đồng trong hành trình chăm sóc, phát triển toàn diện cho thế hệ trẻ. Kể từ năm 2024, thương hiệu S-Race School và S-Race Family đã trở thành những điểm nhấn nổi bật, khơi gợi tinh thần đồng hành của thầy cô với học trò, cha mẹ với con cái, hướng tới việc giúp các em học sinh trưởng thành cả về thể chất, tri thức và giá trị nhân văn.
+With the message **"For Vietnam's Stature"**, S-Race goes beyond organizing a sporting event to serve as a meaningful bridge, conveying a profound message about the importance of health and the connection between families, schools, and communities in caring for and developing the younger generation. Since 2024, the S-Race School and S-Race Family brands have become standout highlights, inspiring teachers to run alongside students and parents alongside children, helping students grow in body, mind, and human values.
 
-Tại lễ công bố Đại hội Thể thao Học sinh Đông Nam Á – ASEAN School Games (ASG) 2024, ông Arghya Mandal, Tổng Giám đốc Công ty Cổ phần Sữa TH, đã nhấn mạnh tầm nhìn chiến lược của Tập đoàn đối với sự phát triển thể chất và trí lực của thế hệ trẻ Việt Nam.
+At the announcement ceremony for the ASEAN School Games (ASG) 2024, Mr. Arghya Mandal, CEO of TH Milk JSC, emphasized the Group's strategic vision for the physical and intellectual development of Vietnam's youth.
 
-Ông chia sẻ:  
-*“Đầu tư vào phát triển thể lực và trí lực là phát triển nòi giống của dân tộc, là đầu tư vào phát triển bền vững mang tính chiến lược quốc gia. Thông qua S-Race và nhiều chương trình lớn khác như Chương trình Sữa học đường quốc gia hay Sức khỏe học đường, chúng tôi mong muốn thế hệ trẻ không chỉ mạnh khỏe mà còn bản lĩnh, sáng tạo, sẵn sàng đối mặt với mọi thử thách của thời đại.”*
+He shared:  
+*"Investing in physical and intellectual development is investing in the nation's future, and in sustainable development of strategic national importance. Through S-Race and many other major programs such as the National School Milk Program and School Health Program, we hope the younger generation will not only be healthy, but also resilient, creative, and ready to face every challenge of the era."*
 
-Phát biểu của ông Arghya Mandal không chỉ làm nổi bật mục tiêu mà Tập đoàn TH và Quỹ Vì Tầm Vóc Việt hướng tới mà còn củng cố tinh thần xuyên suốt của sự kiện. S-Race không chỉ mang đến niềm vui thể thao, mà còn là ngày hội gắn kết các thành viên trong gia đình và nhà trường, góp phần chăm sóc, phát triển toàn diện thế hệ trẻ Việt Nam theo mục tiêu Đức – Trí – Thể – Mỹ.
+Mr. Arghya Mandal's remarks highlighted the goals TH Group and the For Vietnam's Stature Fund pursue, while reinforcing the spirit that runs through the event. S-Race brings not only the joy of sport, but also a festival that connects family and school members, contributing to the holistic development of Vietnam's youth in line with the goals of Morality – Intellect – Physicality – Aesthetics.
 
-Giải chạy năm nay có 6 nội dung thi đấu, chia thành 3 nhóm tuổi:
+This year's race features 6 competitive categories across 3 age groups:
 
-- Học sinh THCS 11-14 tuổi: Cự ly 1,5km dành cho cả nam và nữ.
-- Học sinh THPT 15-17 tuổi: Cự ly 1,5km cho nữ và 3km cho nam.
-- Sinh viên 18-23 tuổi: Cự ly 1,5km cho nữ và 3km cho nam.
+- Lower secondary students (ages 11–14): 1.5 km for both male and female.
+- Upper secondary students (ages 15–17): 1.5 km for female and 3 km for male.
+- University students (ages 18–23): 1.5 km for female and 3 km for male.
 
-Tổng giá trị giải thưởng của S-Race TP.HCM 2024 lên tới 132 triệu đồng, bao gồm giải cá nhân từ hạng 1 đến hạng 10 ở mỗi nội dung thi đấu và giải tập thể cho các trường có nhiều vận động viên tham dự nhất. Bên cạnh nội dung thi đấu chính thức, sự kiện còn tổ chức các khu trải nghiệm thể thao như bóng đá, bóng rổ, bóng chuyền... mang đến không gian giải trí, vận động đa dạng cho học sinh và gia đình.
+The total prize value of S-Race Ho Chi Minh City 2024 reaches VND 132 million, including individual prizes from 1st to 10th place in each category and team prizes for schools with the highest number of participants. Alongside the official races, the event also featured sports experience zones such as football, basketball, and volleyball, offering diverse entertainment and activity spaces for students and families.
 
-Tại sự kiện trực tiếp, trong khuôn khổ hoạt động S-Race Family và S-Race School, hơn 1000 vận động viên là thầy cô, cha mẹ, học sinh tiểu học, THCS đã tạo nên những hình ảnh ý nghĩa khi cùng nắm tay nhau suốt hành trình. Cùng từ đây, mỗi thầy cô là một đại sứ S-Race, cùng với mạng lưới đại sứ gần 1.000 người, chung tay lan tỏa tình yêu thể thao, thói quen rèn luyện thể chất tới hơn 26 triệu học sinh, sinh viên trên khắp Việt Nam.
+At the live event, within the S-Race Family and S-Race School activities, more than 1,000 athletes — teachers, parents, and primary and lower secondary students — created meaningful images as they held hands throughout the journey. From here, each teacher becomes an S-Race ambassador; together with a network of nearly 1,000 ambassadors, they help spread the love of sport and the habit of physical exercise to more than 26 million students nationwide.
 
-## S-Race School Online: Trường học khỏe mạnh
+## S-Race School Online: Healthy schools
 
-S-Race Thành phố Hồ Chí Minh là khởi đầu cho S-Race School Online – một hoạt động chạy bộ trực tuyến được tổ chức trên toàn quốc từ ngày 06/10 đến 04/11. Chương trình dành riêng cho học sinh, sinh viên và các trường học, mang đến một hành trình ý nghĩa kéo dài 30 ngày, nơi thầy cô trở thành nguồn động lực, đồng hành cùng các em trên con đường rèn luyện sức khỏe, xây dựng lòng kiên trì và bản lĩnh để vượt qua mọi thử thách.
+S-Race Ho Chi Minh City marks the beginning of S-Race School Online — a nationwide virtual running activity held from October 6 to November 4. The program is dedicated to students and schools, offering a meaningful 30-day journey in which teachers become a source of motivation, accompanying students on the path to building health, perseverance, and resilience to overcome every challenge.
 
-Chương trình được thiết kế với các thử thách cá nhân phù hợp từng độ tuổi: học sinh THCS chinh phục 30km, học sinh THPT vượt qua 45km, và sinh viên hoàn thành 60km. Đặc biệt, S-Race School Online còn mang đến một thử thách tập thể 1.000km, dành cho các trường THCS, THPT, đại học, cao đẳng, học viện và cả thầy cô, cán bộ nhân viên tại các cơ sở giáo dục trên toàn quốc.
+The program is designed with individual challenges suited to each age group: lower secondary students conquer 30 km, upper secondary students complete 45 km, and university students finish 60 km. S-Race School Online also introduces a collective 1,000 km challenge for lower secondary schools, upper secondary schools, universities, colleges, academies, and teachers and staff at educational institutions nationwide.
 
-Dựa vào kết quả, ban tổ chức sẽ trao thưởng cho Top 30 vận động viên xuất sắc nhất ở mỗi nội dung cá nhân và Top 3 trường THCS, THPT, ĐHCN có tổng quãng đường tích lũy lớn nhất. Ngoài ra, 5 đơn vị đầu tiên đạt 1.000 thành viên tham gia cũng sẽ nhận được những phần quà ý nghĩa như kỷ niệm chương, áo thun S-Race, huy hiệu, giấy chứng nhận online và quà tặng từ đơn vị đồng hành.
+Based on results, the organizing committee will award the Top 30 outstanding athletes in each individual category and the Top 3 lower secondary, upper secondary, and university/college schools with the highest cumulative distance. In addition, the first 5 units to reach 1,000 participating members will receive meaningful gifts such as commemorative plaques, S-Race T-shirts, badges, online certificates, and gifts from partner organizations.
 
-## Lan tỏa giá trị nhân văn qua từng bước chạy
+## Spreading human values with every step
 
-Tại S-Race Thành phố Hồ Chí Minh, mỗi bước chạy không chỉ là nỗ lực cá nhân mà còn là hành động sẻ chia đầy ý nghĩa, tạo nên giá trị vượt xa một sự kiện thể thao thông thường. Với mỗi lượt tham gia trực tiếp, Quỹ Vì Tầm Vóc Việt sẽ trích 5.000 đồng để hỗ trợ điều trị khuyết tật vận động cho trẻ em có hoàn cảnh khó khăn, giúp các em tiến gần hơn đến một cuộc sống khỏe mạnh và tràn đầy hy vọng.
+At S-Race Ho Chi Minh City, every step is not only personal effort but also a meaningful act of sharing, creating value that goes far beyond an ordinary sporting event. For each in-person participation, the For Vietnam's Stature Fund contributes VND 5,000 to support motor disability treatment for children in difficult circumstances, helping them move closer to a healthy life full of hope.
 
-Tinh thần nhân văn ấy tiếp tục được lan tỏa thông qua hoạt động chạy bộ trực tuyến S-Race School Online, nơi mỗi km hoàn thành của vận động viên trên cả nước sẽ đóng góp thêm 200 đồng vào quỹ thiện nguyện. Đặc biệt, số tiền này sẽ được Quỹ Vì Tầm Vóc Việt đối ứng, nhân đôi ý nghĩa của mỗi bước chạy và tạo ra nguồn lực thiết thực để hỗ trợ nhiều trẻ em hơn nữa.
+That humanitarian spirit continues through S-Race School Online, where every kilometer completed by athletes nationwide contributes an additional VND 200 to the charity fund. Notably, this amount will be matched by the For Vietnam's Stature Fund, doubling the meaning of every step and creating practical resources to support even more children.
 
-Không chỉ thúc đẩy thói quen rèn luyện thể chất, S-Race còn là bài học sống động về tinh thần sẻ chia, lòng nhân ái và trách nhiệm cộng đồng. Đây chính là hành trình truyền cảm hứng sâu sắc, giúp các em học sinh, sinh viên nhận ra rằng, mỗi hành động nhỏ bé của mình đều có thể mang lại thay đổi lớn lao cho cuộc sống của người khác.
+Beyond promoting the habit of physical exercise, S-Race is a vivid lesson in the spirit of sharing, compassion, and community responsibility. It is an inspiring journey that helps students and young people recognize that even their smallest actions can bring meaningful change to others' lives.
 
-## Tập đoàn TH – Cam kết đồng hành bền vững vì thế hệ trẻ
+## TH Group — A sustained commitment to the younger generation
 
-Tập đoàn TH một lần nữa khẳng định cam kết đồng hành cùng S-Race 2024 với vai trò nhà tài trợ chính. Chia sẻ về sự hợp tác này, ông Vijay Kumar Pandey, đại diện ban lãnh đạo Tập đoàn TH, bày tỏ:
+TH Group once again affirmed its commitment to accompanying S-Race 2024 as the main sponsor. Sharing about this partnership, Mr. Vijay Kumar Pandey, a representative of TH Group's leadership, said:
 
-*“Chúng tôi vô cùng tự hào khi được gắn bó với S-Race – một sân chơi thể thao đầy ý nghĩa, nơi học sinh và sinh viên có cơ hội rèn luyện sức khỏe và thể hiện bản lĩnh. Qua sự kiện này, chúng tôi mong muốn góp phần xây dựng một thế hệ trẻ khỏe mạnh, thông minh, sẵn sàng đóng góp cho sự phát triển toàn diện của đất nước.”*
+*"We are extremely proud to be associated with S-Race — a meaningful sports playground where students and young people have the opportunity to build health and show their character. Through this event, we hope to contribute to building a healthy, intelligent young generation ready to contribute to the country's holistic development."*
 
-Không chỉ vậy, Tập đoàn TH còn mang đến nhãn hàng sữa cacao lúa mạch **TH true CHOCOMALT MISTORI** – người bạn đồng hành đáng tin cậy của các em học sinh trên hành trình chinh phục thử thách.
+In addition, TH Group brought the **TH true CHOCOMALT MISTORI** malt cocoa milk brand — a trusted companion for students on their journey to conquer challenges.
 
-Đồng hành với S-Race 2024, Tập đoàn TH mong muốn khẳng định cam kết đồng hành cùng Chương trình Sức khỏe học đường giai đoạn 2021 - 2025 cũng như lan tỏa tình yêu thể thao, xây dựng thói quen rèn luyện thể chất và khơi dậy khát vọng chinh phục của một thế hệ tương lai phát triển toàn diện.
+Alongside S-Race 2024, TH Group seeks to reaffirm its commitment to the School Health Program for 2021–2025, while spreading the love of sport, building the habit of physical exercise, and awakening the ambition of a future generation that develops holistically.
 
-## Sữa cacao lúa mạch TH true CHOCOMALT MISTORI
+## TH true CHOCOMALT MISTORI malt cocoa milk
 
-Tập đoàn TH mang đến giải chạy một “người bạn”, người đồng hành của trẻ em Việt Nam, đó là Sữa cacao lúa mạch TH true CHOCOMALT MISTORI – Nguồn năng lượng hoàn toàn từ thiên nhiên cho thế hệ mới. Sản phẩm kết hợp sữa tươi sạch nguyên chất của Trang trại TH và chiết xuất lúa mạch cùng cacao tự nhiên, mang đến hương vị thơm ngon, hấp dẫn, đồng thời cung cấp dưỡng chất và năng lượng giúp trẻ luôn sẵn sàng cho mọi hoạt động hằng ngày.
+TH Group brought to the race a "friend" and companion for Vietnamese children: TH true CHOCOMALT MISTORI malt cocoa milk — energy entirely from nature for the new generation. The product combines pure fresh milk from TH farms with malt and natural cocoa extracts, delivering a delicious, appealing flavor while providing nutrients and energy to keep children ready for daily activities.
 
-Sản phẩm còn được bổ sung bộ vi chất gồm vitamin B6, B12, acid folic và calci hỗ trợ phát triển não bộ và chiều cao. Từ **“MISTORI”** trong tên thương hiệu là một cách kết hợp hai từ tiếng Anh **MYSTERY** và **STORY**, gửi gắm ý nghĩa TH mong muốn được trở thành một phần trong hành trình chinh phục và tạo nên các câu chuyện kỳ thú của trẻ – thứ luôn có sức hút đặc biệt đối với trẻ em.
+The product is also fortified with micronutrients including vitamins B6, B12, folic acid, and calcium to support brain development and height. The **"MISTORI"** in the brand name combines the English words **MYSTERY** and **STORY**, expressing TH's wish to become part of children's journey to conquer challenges and create fascinating stories — something that always holds special appeal for children.
 
-## Quỹ Vì Tầm Vóc Việt VSF
+## For Vietnam's Stature Fund (VSF)
 
-Quỹ Vì Tầm Vóc Việt là quỹ xã hội, tổ chức và hoạt động không vì mục đích lợi nhuận, đóng góp cho mục tiêu phát triển bền vững SDGs, hỗ trợ cộng đồng trong lĩnh vực bảo vệ và chăm sóc sức khỏe cho người dân, đặc biệt ưu tiên trẻ em có hoàn cảnh khó khăn; tài trợ và xây dựng các chương trình phát triển trí tuệ, tài năng, giáo dục, góp phần phát triển tầm vóc, thể lực và trí tuệ cho người dân Việt Nam.
+The For Vietnam's Stature Fund is a social, non-profit fund that contributes to Sustainable Development Goals (SDGs), supporting communities in protecting and caring for public health, with priority given to children in difficult circumstances; sponsoring and building programs for intellectual, talent, and educational development, contributing to the stature, physical strength, and intellect of the Vietnamese people.
 
-Ngoài ra, Quỹ tham gia phục vụ các chương trình xã hội - từ thiện theo yêu cầu của nhà tài trợ phù hợp quy định của pháp luật.
+The Fund also participates in social and charitable programs at the request of sponsors in accordance with legal regulations.
 
-Thông tin chi tiết xem tại: [https://vitamvocviet.vn/](https://vitamvocviet.vn/)
+For more information, visit: [https://vitamvocviet.vn/](https://vitamvocviet.vn/)
 
 ## S-Race School Online
 
-S-Race School Online mở đăng ký từ ngày 26/09/2024.
+S-Race School Online registration opens from September 26, 2024.
 
-Xem chi tiết chương trình tại:
+Program details:
 
-- Fanpage S-Race: [https://www.facebook.com/s.race.vietnam](https://www.facebook.com/s.race.vietnam)
-- Website VRace: [https://vrace.com.vn](https://vrace.com.vn)
+- S-Race Fanpage: [https://www.facebook.com/s.race.vietnam](https://www.facebook.com/s.race.vietnam)
+- VRace Website: [https://vrace.com.vn](https://vrace.com.vn)
 
-S-Race nằm trong chuỗi các hoạt động truyền thông thể thao trường học giai đoạn 2020 - 2025 do Vụ Giáo dục Thể chất Bộ Giáo dục và Đào tạo, Ban Thể thao Đài Truyền hình Việt Nam, Công ty Truyền thông Unicomm Unic thực hiện. Đây cũng là một trong những hoạt động nhằm chung tay thực hiện Đề án tổng thể phát triển thể lực, tầm vóc người Việt Nam giai đoạn 2011-2030 theo Quyết định 641/QĐ-TTg và Chương trình Sức khỏe học đường giai đoạn 2021-2025 theo Quyết định số 1660/QĐ-TTg phê duyệt ngày 02/10/2021 của Thủ tướng Chính phủ.
+S-Race is part of the school sports communication activities for 2020–2025 implemented by the Department of Physical Education – Ministry of Education and Training, the Sports Department – Vietnam Television, and Unicomm Unic Communication Company. It is also one of the activities contributing to the Overall Project on developing the physical strength and stature of the Vietnamese people for 2011–2030 under Decision 641/QD-TTg and the School Health Program for 2021–2025 under Decision No. 1660/QD-TTg approved on October 2, 2021 by the Prime Minister.
 
-## Đơn vị tổ chức
+## Organizers
 
-### Vụ Giáo dục Thể chất - Bộ Giáo dục và Đào tạo
+### Department of Physical Education – Ministry of Education and Training
 
-Vụ Giáo dục Thể chất là đơn vị thuộc Bộ Giáo dục và Đào tạo phụ trách công tác Giáo dục thể chất, hoạt động thể thao và Y tế trường học... Với mục tiêu trang bị đầy đủ kĩ năng, kiến thức, hình thành và duy trì thói quen tập luyện thể dục thể thao thường xuyên, phát triển thể thao trường học với nhiều hoạt động phong phú, nhằm nâng cao thể lực cho học sinh, sinh viên. Thể thao trường học, Sức khỏe học đường là lĩnh vực quan trọng nhất được Vụ Giáo dục Thể chất - Bộ Giáo dục và Đào tạo định hướng và phát triển.
+The Department of Physical Education is a unit under the Ministry of Education and Training responsible for physical education, sports activities, and school health. Its goal is to equip students with sufficient skills and knowledge, form and maintain regular exercise habits, and develop school sports with diverse activities to improve the physical fitness of students and young people. School sports and school health are the most important areas directed and developed by the Department of Physical Education – Ministry of Education and Training.
 
-### Ban Thể thao – Đài Truyền hình Việt Nam VTV
+### Sports Department – Vietnam Television (VTV)
 
-Ban Thể thao trực thuộc Đài Truyền hình Việt Nam là đơn vị tổ chức thực hiện các chương trình thể thao uy tín, hấp dẫn. Hiện nay, Ban Thể thao sản xuất và chịu trách nhiệm nội dung thể thao trên hệ thống các kênh phát sóng quảng bá của Đài Truyền hình Việt Nam. Với thế mạnh về đội ngũ thực hiện là các nhà báo giàu kinh nghiệm, năng động và sáng tạo, công nghệ sản xuất hiện đại, hệ thống kênh và chương trình thể thao phủ sóng toàn quốc và nhiều quốc gia trên khắp thế giới, các nội dung do Ban Thể thao thực hiện luôn khẳng định chất lượng vượt trội và được đông đảo khán giả đón nhận.
+The Sports Department under Vietnam Television organizes and implements reputable, engaging sports programs. It produces and is responsible for sports content across Vietnam Television's broadcast channels. With experienced, dynamic, and creative journalists, modern production technology, and sports channels and programs reaching nationwide and many countries worldwide, content produced by the Sports Department consistently demonstrates superior quality and is widely welcomed by audiences.
 
-### Tập đoàn TH
+### TH Group
 
-Với mục tiêu **“Vì tầm vóc Việt”** và các giá trị cốt lõi **“Vì hạnh phúc đích thực”**, **“Vì sức khỏe cộng đồng”**, trong những năm qua, Tập đoàn TH - nhà sản xuất hàng đầu trong lĩnh vực sữa tươi sạch, đồ uống và thực phẩm sạch, hoàn toàn từ thiên nhiên - đã tiên phong khởi xướng và đồng hành với nhiều chương trình, dự án lớn về dinh dưỡng, sức khỏe như **Đề án Dinh dưỡng người Việt**; **Chương trình Sữa học đường quốc gia**; **Chương trình Sức khỏe học đường**; thành lập **Quỹ Vì tầm vóc Việt** với nhiều hoạt động bảo trợ, bảo vệ trẻ em, nhiều năm đồng hành cùng **Chương trình truyền hình Vì tầm vóc Việt** nhằm truyền thông và định hướng những thông tin hữu ích cho trẻ em và công chúng trong quá trình hình thành và phát triển toàn diện về tầm vóc, trí tuệ của thế hệ trẻ.
+With the goal **"For Vietnam's stature"** and core values **"For true happiness"** and **"For community health"**, over the years TH Group — a leading producer of clean fresh milk, beverages, and clean food entirely from nature — has pioneered and accompanied many major nutrition and health programs such as the **Vietnamese Nutrition Project**; the **National School Milk Program**; the **School Health Program**; establishing the **For Vietnam's Stature Fund** with many child protection and sponsorship activities; and many years of accompanying the **For Vietnam's Stature television program** to communicate and guide useful information for children and the public in the process of forming and developing the stature and intellect of the younger generation.
 
-### Công ty Truyền thông Unicomm Unic
+### Unicomm Unic Communication Company
 
-15 năm hoạt động trong lĩnh vực truyền thông, Unic đã phát triển nhiều thương hiệu riêng chuyên cung cấp các dịch vụ truyền thông và thực hiện các dự án truyền thông cộng đồng: **Usports Thể thao đại chúng**, **Ulook Tư vấn thương hiệu và Sáng tạo hình ảnh**, **Unic Event Tổ chức sự kiện**, **Unic Production Sản xuất phim quảng cáo và chương trình truyền hình**, **Digicomm Tiếp thị số và PR**.
+With 15 years in communications, Unic has developed its own brands providing communication services and community communication projects: **Usports Popular Sports**, **Ulook Brand Consulting and Visual Creation**, **Unic Event**, **Unic Production for commercials and television programs**, and **Digicomm Digital Marketing and PR**.
 
-Ngoài việc thực hiện thành công nhiều Dự án cộng đồng, Unic là đối tác của các cơ quan truyền thông lớn trong việc triển khai những dự án truyền thông thể thao, các giải đấu thể thao uy tín trong nước và quốc tế như **Giải xe đạp quốc tế VTV Cup**, **Giải bóng chuyền nữ quốc tế VTV Cup**, **chương trình truyền hình Giờ vàng thể thao**...
+In addition to successfully implementing many community projects, Unic is a partner of major media organizations in deploying sports communication projects and prestigious domestic and international sports tournaments such as the **VTV Cup International Cycling Race**, **VTV Cup International Women's Volleyball**, and the **Golden Hour Sports television program**.
 
-Bên cạnh khả năng xây dựng dự án truyền thông độc đáo, hấp dẫn, Unic có mối quan hệ tốt đẹp với những khách hàng lớn trong và ngoài nước như: **Vingroup, Hyundai, Viettel, Samsung, Vietjet Air, Karofi, Hoa Sen Group, TH Group, Petrolimex, Hanvico, A. O. Smith, Sơn Hà, Sunhouse, Ferroli, Rapido, Acecook, Sohaco...**
+Alongside its ability to build unique, engaging communication projects, Unic maintains strong relationships with major domestic and international clients including **Vingroup, Hyundai, Viettel, Samsung, Vietjet Air, Karofi, Hoa Sen Group, TH Group, Petrolimex, Hanvico, A. O. Smith, Son Ha, Sunhouse, Ferroli, Rapido, Acecook, Sohaco...**

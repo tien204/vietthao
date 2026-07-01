@@ -12,8 +12,8 @@ export function LayoutEditorToggle({
   editMode,
   onEnter,
   onExit,
-  enterLabel = "Chỉnh vị trí",
-  exitLabel = "Xong chỉnh",
+  enterLabel = "Adjust layout",
+  exitLabel = "Done editing",
 }: LayoutEditorToggleProps) {
   return (
     <button

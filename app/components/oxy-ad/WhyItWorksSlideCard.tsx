@@ -2,23 +2,23 @@ import OxySlideShell from "./OxySlideShell";
 
 const pillars = [
   {
-    title: ["XÓA BỎ", "ĐỊNH KIẾN CŨ"],
-    description: ["Bằng trải nghiệm", "thực tế & công nghệ", "vượt trội"],
+    title: ["ERASE", "OLD BIAS"],
+    description: ["Through real experience", "& superior", "technology"],
     icon: "shield" as const,
   },
   {
-    title: ["CHỨNG MINH", "HIỆU QUẢ"],
-    description: ["Cấp ẩm tức thì –", "không khô da"],
+    title: ["PROVE", "RESULTS"],
+    description: ["Instant hydration –", "no dry skin"],
     icon: "drop" as const,
   },
   {
-    title: ["TẠO THÓI QUEN", "& NIỀM TIN"],
-    description: ["Từ trải nghiệm →", "tin tưởng → gắn bó"],
+    title: ["BUILD HABIT", "& TRUST"],
+    description: ["From experience →", "trust → loyalty"],
     icon: "people" as const,
   },
   {
-    title: ["LUÔN MỚI", "& DẪN ĐẦU"],
-    description: ["Liên tục nâng cấp", "công nghệ, giữ vững", "vị thế thương hiệu"],
+    title: ["ALWAYS FRESH", "& LEADING"],
+    description: ["Continuously upgrade", "technology, maintain", "brand leadership"],
     icon: "rocket" as const,
   },
 ] as const;
@@ -115,7 +115,7 @@ function WhyBrushBanner() {
           d="M15,45 L40,48 M20,60 L50,55 M940,40 L980,35 M950,70 L985,65 M40,35 L70,40 M920,95 L960,90 M80,25 L120,30 M850,105 L900,100 M250,20 L300,25 M700,105 L750,100"
         />
       </svg>
-      <h2 className="oxy-slide-why-banner-text">THỬ OXY, NGẦN NGẠI CHI!</h2>
+      <h2 className="oxy-slide-why-banner-text">TRY OXY, WHAT&apos;S THERE TO HESITATE!</h2>
     </div>
   );
 }
@@ -151,7 +151,7 @@ export default function WhyItWorksSlideCard() {
       <footer className="oxy-slide-why-footer">
         <WhyBrushBanner />
         <div className="oxy-slide-why-sub">
-          <p>THỬ ĐỂ THẤY. TIN ĐỂ YÊU.</p>
+          <p>TRY TO SEE. BELIEVE TO LOVE.</p>
           <svg viewBox="0 0 100 100" fill="none" stroke="currentColor" aria-hidden>
             <path
               d="M50 85 C50 85 15 60 15 35 C15 20 28 10 40 15 C45 17 50 25 50 25 C50 25 55 17 60 15 C72 10 85 20 85 35 C85 60 50 85 50 85 Z"

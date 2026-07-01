@@ -59,7 +59,7 @@ export default function InsightSlideCard() {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/oxy-ad/3/chaioxy.png"
-              alt="Các chai sản phẩm OXY"
+              alt="OXY product bottles"
               draggable={false}
             />
           </figure>
@@ -84,9 +84,9 @@ export default function InsightSlideCard() {
             </div>
 
             <h3 className="oxy-slide-insight-vn">
-              &ldquo;Bình mới,
+              &ldquo;New bottle,
               <br />
-              rượu cũ&rdquo; ?
+              old wine&rdquo;?
             </h3>
           </div>
         </div>

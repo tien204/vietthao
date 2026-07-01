@@ -78,9 +78,9 @@ const agbalumo = Agbalumo({
 });
 
 export const metadata: Metadata = {
-  title: "Trần Việt Phương Thảo — Portfolio Marketing",
+  title: "Thao Tran — Marketing Portfolio",
   description:
-    "Portfolio của Trần Việt Phương Thảo — Thực tập sinh Marketing, chuyên Nội dung & Sự kiện tại TP. Hồ Chí Minh.",
+    "Portfolio of Thao Tran — Marketing Intern specializing in Content & Events in Ho Chi Minh City.",
 };
 
 export default function RootLayout({

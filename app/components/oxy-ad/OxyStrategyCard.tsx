@@ -78,7 +78,7 @@ export default function OxyStrategyCard({
                 STRATEGY - 2024
               </h2>
 
-              <div className="oxy-blue-banner">TRỌN ĐIỂM LÀNH TÍNH</div>
+              <div className="oxy-blue-banner">FULL MARKS FOR GENTLENESS</div>
 
               <div className="oxy-info-list">
                 {infoRows.map((row) => (
@@ -124,7 +124,7 @@ export default function OxyStrategyCard({
           />
         </div>
 
-        <div className="oxy-figure" role="img" aria-label="Key visual người mẫu OXY">
+        <div className="oxy-figure" role="img" aria-label="OXY model key visual">
           <div className="oxy-scratch-wrap">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -141,7 +141,7 @@ export default function OxyStrategyCard({
             <img
               className="oxy-man"
               src="/oxy-ad/1/man.png"
-              alt="Người mẫu OXY — Let's change the game"
+              alt="OXY model — Let's change the game"
               draggable={false}
             />
           </div>
@@ -155,7 +155,7 @@ export default function OxyStrategyCard({
             aria-expanded={expanded}
             aria-controls="oxy-ad-more"
           >
-            <span>{expanded ? "Thu gọn" : "Xem thêm"}</span>
+            <span>{expanded ? "Collapse" : "Show more"}</span>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>
               <path
                 d={expanded ? "M6 15l6-6 6 6" : "M6 9l6 6 6-6"}

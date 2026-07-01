@@ -9,7 +9,7 @@ export function LayoutEditorResizeHandle({
     <button
       type="button"
       className="layout-editor-resize-handle"
-      aria-label="Kéo để phóng to hoặc thu nhỏ"
+      aria-label="Drag to scale up or down"
       onPointerDown={onPointerDown}
     >
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden>

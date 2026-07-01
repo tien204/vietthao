@@ -3,21 +3,21 @@ import OxySlideShell from "./OxySlideShell";
 const planYears = [
   {
     year: "YEAR 1",
-    title: "THỬ LÀ TIN",
+    title: "TRY TO BELIEVE",
     description:
       "Focus on challenging people to try OXY again through product experience and high-trial activities.",
     icon: "megaphone" as const,
   },
   {
     year: "YEAR 2",
-    title: "TIN LÀ GẮN BÓ",
+    title: "BELIEVE TO STAY LOYAL",
     description:
       "Turn trial into a regular habit through education, KOL/KOC reviews, seeding, and expert-led content.",
     icon: "people" as const,
   },
   {
     year: "YEAR 3",
-    title: "NÂNG CẤP ĐỂ DẪN ĐẦU",
+    title: "UPGRADE TO LEAD",
     description:
       "Introduce the idea of product upgrade, encouraging users to explore new technology and keep the brand relevant.",
     icon: "rocket" as const,
@@ -110,8 +110,8 @@ export default function PlanSlideCard() {
               &ldquo;
             </span>
             <p className="oxy-slide-plan-quote-text">
-              <span>THỬ OXY,</span>
-              <span>NGẦN NGẠI CHI</span>
+              <span>TRY OXY,</span>
+              <span>WHAT&apos;S THERE TO HESITATE?</span>
             </p>
             <span className="oxy-slide-plan-quote-mark" aria-hidden>
               &rdquo;

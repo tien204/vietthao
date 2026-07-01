@@ -84,12 +84,12 @@ export default function ReframeSlideCard() {
             />
           </div>
 
-          <div className="oxy-slide-reframe-portrait-wrap" role="img" aria-label="Người mẫu rửa mặt OXY">
+          <div className="oxy-slide-reframe-portrait-wrap" role="img" aria-label="OXY face wash model">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="oxy-slide-reframe-portrait"
               src="/oxy-ad/4/char.png"
-              alt="Người mẫu rửa mặt OXY"
+              alt="OXY face wash model"
               draggable={false}
             />
           </div>

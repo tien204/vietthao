@@ -20,7 +20,7 @@ const implications = [
   {
     title: "Flavor Words",
     description:
-      "Use words that help people imagine taste: đậm đà, thơm phức, vừa miệng, cay nhẹ.",
+      "Use words that help people imagine taste: rich and bold, aromatic, well-balanced, mildly spicy.",
     icon: CommentIcon,
   },
 ] as const;
@@ -41,9 +41,9 @@ export default function ContentImplicationsSlide() {
 
       <div className="bxv-impl-top">
         <div className="bxv-impl-intro">
-          <h1 className="bxv-impl-hero">ĐỪNG CHỈ GIỚI THIỆU SỐT.</h1>
+          <h1 className="bxv-impl-hero">DON&apos;T JUST INTRODUCE THE SAUCE.</h1>
           <p className="bxv-impl-lead">
-            Hãy cho thấy Bếp Xuyên Việt là giải pháp cho bữa ăn hằng ngày.
+            Show that Bếp Xuyên Việt is the solution for everyday meals.
           </p>
         </div>
         <div className="bxv-impl-product">

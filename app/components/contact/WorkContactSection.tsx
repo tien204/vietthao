@@ -27,15 +27,15 @@ const INITIAL_MESSAGES: ChatMessage[] = [
     id: "intro",
     role: "assistant",
     content:
-      "Chào anh/chị! Mình là trợ lý của Thảo. Anh/chị cho mình biết họ tên của anh/chị được không?",
+      "Hi there! I'm Thao's contact assistant. Could you share your full name?",
   },
 ];
 
 const STEP_PLACEHOLDERS: Record<Exclude<ContactStep, "done">, string> = {
-  name: "Ví dụ: Nguyễn Văn A",
-  jd: "Link JD hoặc mô tả ngắn về vị trí",
-  phone: "Ví dụ: 0901 234 567",
-  email: "Ví dụ: hr@congty.com",
+  name: "e.g. John Smith",
+  jd: "Job posting link or a brief role description",
+  phone: "e.g. 0901 234 567",
+  email: "e.g. hr@company.com",
 };
 
 function isValidEmail(value: string) {
@@ -50,10 +50,10 @@ function isValidPhone(value: string) {
 function getGreeting(date = new Date()) {
   const hour = date.getHours();
 
-  if (hour >= 5 && hour < 11) return "Chào buổi sáng";
-  if (hour >= 11 && hour < 13) return "Chào buổi trưa";
-  if (hour >= 13 && hour < 18) return "Chào buổi chiều";
-  return "Chào buổi tối";
+  if (hour >= 5 && hour < 11) return "Good morning";
+  if (hour >= 11 && hour < 13) return "Good afternoon";
+  if (hour >= 13 && hour < 18) return "Good afternoon";
+  return "Good evening";
 }
 
 async function sendContactEmail(form: ContactForm) {
@@ -67,14 +67,14 @@ async function sendContactEmail(form: ContactForm) {
     const data = (await response.json().catch(() => null)) as {
       error?: string;
     } | null;
-    throw new Error(data?.error ?? "Không thể gửi email.");
+    throw new Error(data?.error ?? "Unable to send email.");
   }
 }
 
 function TypingIndicator() {
   return (
     <div className="work-contact-message-row is-assistant chat-message-enter">
-      <div className="work-contact-message is-assistant" role="status" aria-label="Đang nhập">
+      <div className="work-contact-message is-assistant" role="status" aria-label="Typing">
         <div className="chat-typing-indicator">
           <span className="chat-typing-dot" />
           <span className="chat-typing-dot" />
@@ -181,7 +181,7 @@ export function WorkContactSection() {
       setEmailSendState("sent");
       advanceConversation(
         "done",
-        `Cảm ơn ${finalForm.recruiterName}! Mình đã gửi thông tin cho Thảo. Thảo sẽ liên hệ lại sớm qua ${finalForm.phone} hoặc ${finalForm.email}.`,
+        `Thanks, ${finalForm.recruiterName}! I've sent your details to Thao. She'll follow up soon at ${finalForm.phone} or ${finalForm.email}.`,
         600,
       );
     } catch (sendError) {
@@ -190,11 +190,11 @@ export function WorkContactSection() {
       const message =
         sendError instanceof Error
           ? sendError.message
-          : "Không thể gửi email.";
+          : "Unable to send email.";
       setError(message);
       advanceConversation(
         "done",
-        `Cảm ơn ${finalForm.recruiterName}! Mình đã ghi nhận thông tin nhưng chưa gửi được email tự động. Anh/chị vui lòng liên hệ trực tiếp qua email hoặc số điện thoại bên phải.`,
+        `Thanks, ${finalForm.recruiterName}! I've saved your details, but the automatic email didn't go through. Please reach out directly using the email or phone number on the right.`,
         600,
       );
     }
@@ -209,21 +209,21 @@ export function WorkContactSection() {
 
     if (step === "name") {
       if (value.length < 2) {
-        setError("Vui lòng nhập họ tên đầy đủ.");
+        setError("Please enter your full name.");
         return;
       }
 
       setForm((prev) => ({ ...prev, recruiterName: value }));
       advanceConversation(
         "jd",
-        `Cảm ơn ${value}! Anh/chị vui lòng gửi link JD hoặc mô tả ngắn về vị trí tuyển dụng ạ.`,
+        `Thanks, ${value}! Please share the job posting link or a brief description of the role.`,
       );
       return;
     }
 
     if (step === "jd") {
       if (value.length < 5) {
-        setError("Vui lòng nhập link JD hoặc mô tả vị trí (ít nhất 5 ký tự).");
+        setError("Please enter a job posting link or role description (at least 5 characters).");
         return;
       }
 
@@ -233,25 +233,25 @@ export function WorkContactSection() {
       }));
       advanceConversation(
         "phone",
-        "Số điện thoại để Thảo liên hệ lại là gì ạ?",
+        "What's the best phone number for Thao to reach you?",
       );
       return;
     }
 
     if (step === "phone") {
       if (!isValidPhone(value)) {
-        setError("Số điện thoại không hợp lệ. Vui lòng nhập lại.");
+        setError("That phone number doesn't look valid. Please try again.");
         return;
       }
 
       setForm((prev) => ({ ...prev, phone: value }));
-      advanceConversation("email", "Email của anh/chị là gì ạ?");
+      advanceConversation("email", "What's your email address?");
       return;
     }
 
     if (step === "email") {
       if (!isValidEmail(value)) {
-        setError("Email không hợp lệ. Vui lòng nhập lại.");
+        setError("That email doesn't look valid. Please try again.");
         return;
       }
 
@@ -271,10 +271,10 @@ export function WorkContactSection() {
         <div className="work-contact-intro profile-reveal">
           <div className="featured-header work-contact-featured-header">
             <div className="title">
-              Liên hệ
+              Work
               <br />
               <span className="line2-indent" aria-hidden="true" />
-              công việc
+              Contact
             </div>
 
             <div className="retro-device work-contact-retro-device" aria-hidden="true">
@@ -300,7 +300,7 @@ export function WorkContactSection() {
                 <div className="work-contact-chat-avatar">
                 <Image
                   src="/avatar.png"
-                  alt="Avatar Trần Việt Phương Thảo"
+                  alt="Avatar of Thao Tran"
                   fill
                   className="work-contact-chat-avatar-img"
                   sizes="56px"
@@ -309,13 +309,13 @@ export function WorkContactSection() {
 
                 <div className="work-contact-chat-copy">
                   <p className="work-contact-chat-kicker">
-                  Trợ lý liên hệ
+                  Contact Assistant
                   </p>
-                  <h2 lang="vi" className="work-contact-chat-title">
-                    {greeting}, anh/chị
+                  <h2 lang="en" className="work-contact-chat-title">
+                    {greeting}
                   </h2>
                   <p className="work-contact-chat-meta">
-                  Liên hệ công việc với Thảo — chỉ mất vài phút
+                  Get in touch with Thao — takes just a few minutes
                   </p>
                 </div>
               </div>
@@ -324,7 +324,7 @@ export function WorkContactSection() {
             <div
               ref={scrollContainerRef}
               className="work-contact-messages"
-              aria-label="Lịch sử trò chuyện"
+              aria-label="Conversation history"
             >
               <div className="work-contact-messages-stack">
               {messages.map((message, index) => {
@@ -367,7 +367,7 @@ export function WorkContactSection() {
             <ClaudeChatInput
               placeholder={
                 step === "done"
-                  ? "Đã hoàn tất — cảm ơn anh/chị!"
+                  ? "All done — thank you!"
                   : STEP_PLACEHOLDERS[step]
               }
               disabled={step === "done" || isTyping || emailSendState === "sending"}
@@ -378,12 +378,12 @@ export function WorkContactSection() {
                 <div className="work-contact-done">
                   <p className="work-contact-done-text">
                     {emailSendState === "sending"
-                      ? "Đang gửi thông tin liên hệ..."
+                      ? "Sending your contact details..."
                       : emailSendState === "sent"
-                        ? "Đã gửi thông tin thành công. Thảo sẽ phản hồi trong 24–48 giờ làm việc."
+                        ? "Your details were sent successfully. Thao will respond within 24–48 business hours."
                         : emailSendState === "error"
-                          ? "Thông tin đã được ghi nhận. Anh/chị có thể liên hệ trực tiếp qua email bên dưới."
-                          : "Đã ghi nhận thông tin liên hệ."}
+                          ? "Your details were saved. You can also reach out directly via the email below."
+                          : "Your contact details have been recorded."}
                   </p>
                   {emailSendState === "error" ? (
                     <div className="work-contact-done-actions">
@@ -391,7 +391,7 @@ export function WorkContactSection() {
                         href={`mailto:${contactEmail}`}
                         className="work-contact-button primary"
                       >
-                        Liên hệ qua email
+                        Contact via email
                       </a>
                     </div>
                   ) : null}

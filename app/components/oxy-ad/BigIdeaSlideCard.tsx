@@ -9,7 +9,7 @@ export default function BigIdeaSlideCard() {
           <img
             className="oxy-slide-big-idea-img"
             src="/oxy-ad/5/bear.png"
-            alt="Gấu — biểu tượng Big Idea"
+            alt="Bear — Big Idea symbol"
             draggable={false}
           />
         </div>
@@ -23,9 +23,9 @@ export default function BigIdeaSlideCard() {
             </span>
             <div className="oxy-slide-big-idea-lines">
               <span className="oxy-slide-big-idea-line oxy-slide-big-idea-line--dark">OXY</span>
-              <span className="oxy-slide-big-idea-line">KHÔNG NGẠI</span>
+              <span className="oxy-slide-big-idea-line">FEARS NO</span>
               
-              <span className="oxy-slide-big-idea-line">KIỂM CHỨNG</span>
+              <span className="oxy-slide-big-idea-line">PROOF</span>
             </div>
             <span className="oxy-slide-big-idea-close" aria-hidden>
               &rdquo;

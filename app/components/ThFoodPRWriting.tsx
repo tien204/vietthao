@@ -17,19 +17,19 @@ const previews = [
   {
     id: "press-release",
     src: "/th_food/pr/1.png",
-    alt: "Thông cáo báo chí S-Race 2024 — TH Food Chain",
+    alt: "S-Race 2024 press release — TH Food Chain",
     label: "Press Release – S-Race 2024",
     action: "preview" as const,
-    actionLabel: "Xem chi tiết thông cáo báo chí",
+    actionLabel: "View press release details",
   },
   {
     id: "article",
     src: "/th_food/pr/2.png",
-    alt: "Bài viết giới thiệu cháo tươi TH true FOOD",
+    alt: "Article introducing TH true FOOD fresh porridge",
     label: "Online Article – TH true FOOD",
     action: "external" as const,
     href: ARTICLE_URL,
-    actionLabel: "Mở bài báo trên Phụ Nữ Online",
+    actionLabel: "Open article on Phu Nu Online",
   },
 ] as const;
 
@@ -59,7 +59,7 @@ export default function ThFoodPRWriting() {
       setPressReleaseMd(await response.text());
     } catch {
       setPressReleaseMd(
-        "_Không thể tải thông cáo báo chí. Vui lòng thử lại sau._"
+        "_Unable to load the press release. Please try again later._"
       );
     } finally {
       setPressReleaseLoading(false);
@@ -264,14 +264,14 @@ export default function ThFoodPRWriting() {
           className="th-pr-lightbox"
           role="dialog"
           aria-modal="true"
-          aria-label="Xem thông cáo báo chí"
+          aria-label="View press release"
           onClick={closePressRelease}
         >
           <button
             type="button"
             className="th-pr-lightbox-close"
             onClick={closePressRelease}
-            aria-label="Đóng"
+            aria-label="Close"
           >
             <CloseIcon />
           </button>
@@ -280,7 +280,7 @@ export default function ThFoodPRWriting() {
             onClick={(event) => event.stopPropagation()}
           >
             {pressReleaseLoading || !pressReleaseMd ? (
-              <p className="th-pr-doc-loading">Đang tải thông cáo báo chí…</p>
+              <p className="th-pr-doc-loading">Loading press release…</p>
             ) : (
               <article className="th-pr-doc">
                 <ReactMarkdown

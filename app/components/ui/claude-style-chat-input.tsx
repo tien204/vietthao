@@ -12,7 +12,7 @@ type ClaudeChatInputProps = {
 
 export default function ClaudeChatInput({
   onSendMessage,
-  placeholder = "Nhập tin nhắn...",
+  placeholder = "Type a message...",
   disabled = false,
 }: ClaudeChatInputProps) {
   const [message, setMessage] = useState("");
@@ -74,7 +74,7 @@ export default function ClaudeChatInput({
           className="chat-input-send"
           onClick={handleSend}
           disabled={disabled || !message.trim()}
-          aria-label="Gửi tin nhắn"
+          aria-label="Send message"
         >
           <ArrowUp size={16} />
         </button>

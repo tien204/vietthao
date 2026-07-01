@@ -124,11 +124,11 @@ function MediaCard({
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={card.image}
-            alt={`Preview social content ${index + 1} của Mở Mắt Coffee`}
+            alt={`Mo Mat Coffee social content preview ${index + 1}`}
             draggable={false}
           />
 
-          {card.pinned ? <span className="momat-media-pinned">Đã ghim</span> : null}
+          {card.pinned ? <span className="momat-media-pinned">Pinned</span> : null}
 
           <div className="momat-media-metrics" aria-hidden>
             <MetricItem icon="heart" value={card.metrics.likes} />

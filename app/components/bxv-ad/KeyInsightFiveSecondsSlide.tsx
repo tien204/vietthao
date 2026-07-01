@@ -3,17 +3,17 @@ import BxvSlideShell from "./BxvSlideShell";
 const points = [
   {
     title: "Food-First Visual",
-    description: "Món ăn phải xuất hiện hấp dẫn ngay từ đầu.",
+    description: "The dish must look appetizing from the very first frame.",
     icon: BowlFoodIcon,
   },
   {
     title: "Clear Hook",
-    description: "Người xem cần hiểu video đang hứa hẹn điều gì.",
+    description: "Viewers need to understand what the video is promising.",
     icon: HookIcon,
   },
   {
     title: "Attention Moment",
-    description: 'Một khoảnh khắc "ngon mắt" giúp họ dừng lướt.',
+    description: 'A visually "mouth-watering" moment helps them stop scrolling.',
     icon: PenIcon,
   },
 ] as const;
@@ -50,7 +50,7 @@ export default function KeyInsightFiveSecondsSlide() {
           </div>
 
           <p className="bxv-insight-b-lead">
-            Người xem cần thấy <strong>thèm ăn trước khi</strong> họ quan tâm đến sản phẩm.
+            Viewers need to feel <strong>hungry before</strong> they care about the product.
           </p>
 
           <div className="bxv-insight-b-points">

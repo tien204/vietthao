@@ -10,17 +10,17 @@ type TimelineItem = {
 const education: TimelineItem[] = [
   {
     date: "2025 / 2021",
-    title: "Đại học Văn Lang",
-    sub: "Cử nhân Quan hệ Công chúng · GPA 3.5/4.0",
+    title: "Van Lang University",
+    sub: "Bachelor of Public Relations · GPA 3.5/4.0",
   },
-  { date: "Chứng chỉ", title: "VSTEP 7.5", sub: "Tiếng Anh" },
+  { date: "Certificate", title: "VSTEP 7.5", sub: "English" },
   {
-    date: "Chứng chỉ",
+    date: "Certificate",
     title: "AIM Academy",
     sub: "Creative Ideas, Real Project",
   },
   {
-    date: "Chứng chỉ",
+    date: "Certificate",
     title: "Design Anthropology School",
     sub: "AI Illustrator Foundation",
   },
@@ -29,18 +29,18 @@ const education: TimelineItem[] = [
 const career: TimelineItem[] = [
   {
     date: "11/2023 – 10/2024",
-    title: "Mở Mắt Coffee",
-    sub: "Đồng sáng lập & Trưởng nhóm Nội dung",
+    title: "Mo Mat Coffee",
+    sub: "Co-founder & Content Team Lead",
   },
   {
     date: "2024",
     title: "TH Food Chain JSC",
-    sub: "Thực tập sinh Vận hành Marketing",
+    sub: "Marketing Operations Intern",
   },
   {
     date: "2022",
     title: "ECO Vietnam Group",
-    sub: "Điều phối viên — “Gieo mầm tương lai”",
+    sub: "Coordinator — \u201cPlanting Seeds for the Future\u201d",
   },
 ];
 
@@ -54,18 +54,18 @@ const tools: Array<{ name: string; src: string }> = [
 ];
 
 const capabilitiesLeft = [
-  "Lên kế hoạch nội dung",
-  "Điều phối sự kiện",
-  "Viết PR",
-  "Nghiên cứu",
-  "Nhiếp ảnh",
+  "Content planning",
+  "Event coordination",
+  "PR writing",
+  "Research",
+  "Photography",
 ];
 
 const capabilitiesRight = [
-  "Tư duy phản biện",
-  "Quản lý thời gian",
-  "Làm việc nhóm",
-  "Chịu áp lực tốt",
+  "Critical thinking",
+  "Time management",
+  "Teamwork",
+  "Works well under pressure",
 ];
 
 function Timeline({ items }: { items: TimelineItem[] }) {
@@ -89,31 +89,31 @@ export default function Resume() {
   return (
     <section className="resume about">
       <div className="card combined-card">
-        {/* ---- Hồ sơ ---- */}
+        {/* ---- Profile ---- */}
         <div className="profile-row" data-reveal>
           <div className="left">
-            <h2 className="h-section lg">Giới thiệu bản thân</h2>
+            <h2 className="h-section lg">About Me</h2>
             <div className="bio">
               <p>
-                Mình là Thảo, một philosoraptor chính hiệu. Câu cửa miệng của mình là
-                &ldquo;Cho tui hỏi xíu&rdquo;, nhưng thật ra là để lần ra cái &ldquo;cấn&rdquo;
-                trong câu chuyện.
+                I&apos;m Thao, a true philosoraptor at heart. My catchphrase is
+                &ldquo;Let me ask you something real quick,&rdquo; but what I really mean is
+                finding the friction in the story.
               </p>
               <p>
-                Có lẽ vì vậy mà mình luôn bị thu hút bởi truyền thông — không chỉ ở sản phẩm
-                cuối cùng, mà ở cả cách một ý tưởng được suy nghĩ, phân tích và hình thành
-                phía sau. Mình thích hiểu con người, nhận ra những pattern nhỏ, và tìm xem
-                thật ra bên dưới vấn đề đang có điều gì diễn ra.
+                Maybe that&apos;s why I&apos;m always drawn to communications — not just the
+                finished product, but the thinking, analysis, and shaping behind every idea.
+                I love understanding people, spotting small patterns, and digging into what
+                is actually happening beneath the surface.
               </p>
               <p>
-                Phần lớn dự án trong portfolio này bắt đầu khá đơn giản: một brief ở trường,
-                một task nhỏ ở nơi làm việc, hoặc một thử thách mình tự đặt ra. Portfolio này
-                là cách mình cho thấy quá trình mình quan sát, đặt câu hỏi, nối các điểm lại
-                với nhau, và cố gắng làm cho sản phẩm cuối cùng hợp lý hơn một chút — vừa học
-                thuật, vừa thực chiến, và vẫn đang hoàn thiện.
+                Most projects in this portfolio started pretty simply: a school brief, a small
+                task at work, or a challenge I set for myself. This portfolio is how I show the
+                process of observing, asking questions, connecting the dots, and trying to make
+                the final output a little more coherent — part academic, part hands-on, and still
+                a work in progress.
               </p>
             </div>
-            <h3 className="h-section md">Kết nối</h3>
+            <h3 className="h-section md">Connect</h3>
             <div className="contact-grid">
               <div className="contact-col">
                 <div className="contact-row">
@@ -134,7 +134,7 @@ export default function Resume() {
                   <span className="chip-ico">
                     <MapPin size={18} />
                   </span>
-                  <span>Bình Thạnh, HCMC</span>
+                  <span>Binh Thanh District, HCMC</span>
                 </div>
                 <div className="contact-row">
                   <span className="chip-ico">
@@ -164,13 +164,13 @@ export default function Resume() {
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/avatar.png"
-                  alt="Chân dung Trần Việt Phương Thảo"
+                  alt="Portrait of Thao Tran"
                 />
               </div>
-              <div className="bname">Trần Việt Phương Thảo</div>
-              <div className="bsub">Thực tập sinh Marketing</div>
+              <div className="bname">Thao Tran</div>
+              <div className="bsub">Marketing Intern</div>
               <div className="brow">
-                <div className="bdate">TP. Hồ Chí Minh</div>
+                <div className="bdate">Ho Chi Minh City</div>
                 <QrCode />
               </div>
             </div>
@@ -180,19 +180,19 @@ export default function Resume() {
           </div>
         </div>
 
-        {/* ---- Học vấn / Kinh nghiệm ---- */}
+        {/* ---- Education / Experience ---- */}
         <div className="two-col">
-          {/* Cột trái */}
+          {/* Left column */}
           <div className="col section-gap">
             <h3 className="h-section" style={{ fontSize: 28 }} data-reveal>
-              Học vấn
+              Education
             </h3>
             <div data-reveal>
               <Timeline items={education} />
             </div>
 
             <h3 className="h-section" style={{ fontSize: 28 }} data-reveal>
-              Công cụ
+              Tools
             </h3>
             <div className="toolkit-grid" data-reveal>
               <div className="toolkit-row">
@@ -216,17 +216,17 @@ export default function Resume() {
             </div>
           </div>
 
-          {/* Cột phải */}
+          {/* Right column */}
           <div className="col section-gap">
             <h3 className="h-section" style={{ fontSize: 28 }} data-reveal>
-              Kinh nghiệm
+              Experience
             </h3>
             <div data-reveal>
               <Timeline items={career} />
             </div>
 
             <h3 className="h-section" style={{ fontSize: 28 }} data-reveal>
-              Năng lực
+              Capabilities
             </h3>
             <div className="cap-grid" data-reveal>
               <div className="cap-col">

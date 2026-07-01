@@ -7,7 +7,7 @@ const CONTACT_EMAIL =
 
 const CONTACT_ITEMS = [
   {
-    label: "Điện thoại",
+    label: "Phone",
     value: "0399 814 954",
     href: "tel:0399814954",
     icon: Phone,
@@ -37,7 +37,7 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
     return (
       <aside
         ref={ref}
-        aria-label="Thông tin liên hệ trực tiếp"
+        aria-label="Direct contact information"
         className="work-contact-panel profile-reveal profile-reveal-delay-1"
       >
         <div className="work-contact-panel-head">
@@ -46,7 +46,7 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
             <div className="work-contact-panel-avatar">
               <Image
                 src="/avatar.png"
-                alt="Ảnh chân dung Trần Việt Phương Thảo"
+                alt="Portrait of Thao Tran"
                 fill
                 className="work-contact-panel-avatar-img"
                 sizes="56px"
@@ -54,10 +54,10 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
             </div>
             <div className="work-contact-panel-title-wrap">
               <p className="work-contact-panel-kicker">
-                Liên hệ trực tiếp
+                Direct Contact
               </p>
               <h3 className="work-contact-panel-title">
-                Trần Việt Phương Thảo
+                Thao Tran
               </h3>
             </div>
           </div>
@@ -95,7 +95,7 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
                 <Briefcase size={18} />
               </span>
               <p className="work-contact-block-label">
-                Vị trí quan tâm
+                Roles of Interest
               </p>
             </div>
             <ul className="work-contact-role-list">
@@ -113,7 +113,7 @@ export const ContactInfoPanel = forwardRef<HTMLElement>(
               href="#profile"
               className="work-contact-cta"
             >
-              Xem hồ sơ đầy đủ
+              View Full Profile
             </a>
           </div>
         </div>

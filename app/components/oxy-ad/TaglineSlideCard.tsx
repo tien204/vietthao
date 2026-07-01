@@ -4,17 +4,17 @@ const taglines = [
   {
     label: "Main",
     className: "oxy-slide-tagline-box--main",
-    lines: ["OXY CẤP ẨM TỨC THÌ,", "THỬ ĐI SẼ THẤY"],
+    lines: ["OXY INSTANT HYDRATION —", "TRY IT AND SEE"],
   },
   {
     label: "Secondary",
     className: "oxy-slide-tagline-box--mid",
-    lines: ["OXY gây khô da?", "Chưa thử sao biết?"],
+    lines: ["OXY dries out your skin?", "How would you know without trying?"],
   },
   {
     label: null,
     className: "oxy-slide-tagline-box--light",
-    lines: ["Công nghệ đến từ", "Nhật Bản"],
+    lines: ["Technology from", "Japan"],
   },
 ] as const;
 
@@ -33,7 +33,7 @@ export default function TaglineSlideCard() {
             <img
               className="oxy-slide-tagline-char"
               src="/oxy-ad/6/char.png"
-              alt="Người mẫu OXY Deep Wash"
+              alt="OXY Deep Wash model"
               draggable={false}
             />
           </div>
