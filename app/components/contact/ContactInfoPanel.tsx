@@ -2,8 +2,8 @@ import Image from "next/image";
 import { Briefcase, Linkedin, Mail, Phone } from "lucide-react";
 import { forwardRef } from "react";
 
-const CONTACT_EMAIL =
-  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "dinhthuyhuong11@gmail.com";
+const CONTACT_EMAIL = "phuongthao16002@gmail.com";
+  // process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "phuongthao16002@gmail.com";
 
 const CONTACT_ITEMS = [
   {
